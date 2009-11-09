@@ -1,6 +1,8 @@
+from zope.cachedescriptors.property import CachedProperty
 from silva.core.layout.interfaces import ISilvaSkin
-from silva.core.layout.porto.interfaces import IPorto
 from silva.core import conf as silvaconf
+from silva.core.layout.porto.porto import Layout as PortoLayout
+from silva.core.layout.porto.interfaces import IPorto
 
 class IStandardIssue(IPorto):
     """Layer for standard issue theme
@@ -16,7 +18,7 @@ class IStandardIssueSkin(IStandardIssue, ISilvaSkin):
 
 silvaconf.layer(IStandardIssue)
 
-class Layout(porto.Layout):
+class Layout(PortoLayout):
     
     @CachedProperty
     def publication_title(self):
