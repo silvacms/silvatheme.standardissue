@@ -35,8 +35,12 @@ p, ul, ol {
 	font-size: 11px;
 }
 
+#navigation-menu li.selected a {
+    color: #7BAA0F;    
+}
+
 a:link {
-	color: #7BAA0F;
+    color: #333333;
 }
 
 a:hover, a:active {
@@ -304,7 +308,7 @@ input, textarea, select {
 
 #footer {
 	height: 400px;
-	min-height: 400px;
+	/* min-height: 400px; */
 	padding: 130px 0 0 0;
 	background: #003448 url(images/img09.gif) repeat-x;
 }
