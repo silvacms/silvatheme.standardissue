@@ -8,7 +8,7 @@ class IStandardIssue(IPorto):
     """Layer for standard issue theme
     """
 
-    silvaconf.resource('styles/default.css')
+    silvaconf.resource('default.css')
 
 class IStandardIssueSkin(IStandardIssue, ISilvaSkin):
     """Skin for standard issue theme
