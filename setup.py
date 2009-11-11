@@ -24,9 +24,7 @@ setup(name='silvatheme.standardissue',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
+          'megrok.chameleon',
+          'silva.core.layout',
       ],
-      entry_points="""
-      # -*- Entry points: -*-
-      """,
       )
