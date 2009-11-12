@@ -1,7 +1,7 @@
 from zope.cachedescriptors.property import CachedProperty
 from silva.core.layout.interfaces import ISilvaSkin
 from silva.core import conf as silvaconf
-from silva.core.layout.porto.porto import Layout as PortoLayout
+from silva.core.layout.porto import porto
 from silva.core.layout.porto.interfaces import IPorto
 from silva.core.interfaces import IPublication
 
@@ -22,8 +22,11 @@ class IStandardIssueSkin(IStandardIssue, ISilvaSkin):
 
 silvaconf.layer(IStandardIssue)
 
+class Navigation(porto.Navigation):
+    max_depth = 0
 
-class Layout(PortoLayout):
+
+class Layout(porto.Layout):
     
     @CachedProperty
     def publication_title(self):
