@@ -55,8 +55,10 @@
 <div id="footer">
   <div class="wrap" tal:replace="structure provider:footer">
   </div>
-  <div id="legal">(c) 2009-2010 <a href="http://infrae.com">Infrae</a>, Design by <a href="http://www.nodethirtythree.com/">NodeThirtyThree</a> and <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</div>
+  <div id="legal">
+    &copy; 2009-2010 <a href="http://infrae.com">Infrae</a>,
+    Design by <a href="http://www.nodethirtythree.com/">NodeThirtyThree</a> and
+    <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.
+  </div>
 </div>
 <!-- end footer -->
-
-
