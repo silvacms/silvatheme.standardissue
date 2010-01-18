@@ -4,7 +4,7 @@
       <h1><a href="#"
              tal:attributes="href layout.root_url"
              tal:content="layout.root.get_title_or_id()">Silva</a></h1>
-      <h2 tal:content=""></h2>
+      <!--<h2 tal:content=""></h2>-->
     </div>
     <div id="menu">
       <ul>
