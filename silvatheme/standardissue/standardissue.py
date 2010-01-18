@@ -48,4 +48,4 @@ class Layout(porto.Layout):
         return ''
 
     def current_navigation_title(self):
-        return self.context.get_container().get_title()
+        return self.context.get_publication().get_title()
