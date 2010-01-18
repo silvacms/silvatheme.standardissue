@@ -23,7 +23,7 @@ class IStandardIssueSkin(IStandardIssue, ISilvaSkin):
 silvaconf.layer(IStandardIssue)
 
 class Navigation(porto.Navigation):
-    max_depth = 0
+    max_depth = 1
 
 
 class Layout(porto.Layout):
