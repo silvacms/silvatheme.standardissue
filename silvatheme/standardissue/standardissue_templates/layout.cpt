@@ -34,7 +34,7 @@
     <div id="sidebar">
       <ul>
         <li id="search" tal:condition="exists:context/search">
-          <h2><b>Search</b></h2>
+          <h3>Search</h3>
           <form method="get" action="search">
             <fieldset>
               <input type="text" id="s" name="fulltext" value="" />
