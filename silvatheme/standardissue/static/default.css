@@ -35,10 +35,6 @@ p, ul, ol {
     font-size: 11px;
 }
 
-#navigation-menu li.selected a {
-    color: #7BAA0F;
-}
-
 a:link {
     color: #333333;
 }
@@ -253,6 +249,19 @@ input, textarea, select {
     margin-bottom: 10px;
     background: url(images/img03.gif) repeat-x left bottom;
     font-size: 16px;
+}
+
+/* Silva menu styling */
+
+/* navigation depth styling */
+
+#sidebar ul.navigation-level-1, #sidebar ul.navigation-level-2,
+#sidebar ul.navigation-level-3 {
+    margin-left: 10px;
+}
+
+#navigation-menu li a.selected {
+    color: #7BAA0F;
 }
 
 /* Search */
