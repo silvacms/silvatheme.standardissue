@@ -1,14 +1,13 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = '1.0dev'
 
 setup(name='silvatheme.standardissue',
       version=version,
-      description="Standard Issue",
+      description="Standard Issue theme for Silva",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
-      # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
@@ -25,6 +24,8 @@ setup(name='silvatheme.standardissue',
       install_requires=[
           'setuptools',
           'megrok.chameleon',
+          'silva.core.interfaces',
           'silva.core.layout',
-      ],
+          'zope.cachedescriptors',
+          ],
       )

@@ -27,11 +27,11 @@ class Navigation(porto.Navigation):
 
 
 class Layout(porto.Layout):
-    
+
     @CachedProperty
     def publication_title(self):
         return self.context.get_publication().get_title()
-    
+
     @CachedProperty
     def publication_url(self):
         return self.context.get_publication().absolute_url()

@@ -1,4 +1,6 @@
-Introduction
-============
+========================
+silvatheme.standardissue
+========================
 
-Standard Issue theme for Silva
+Standard Issue is a visual design (theme) for Silva 2.2 and higher.
+
