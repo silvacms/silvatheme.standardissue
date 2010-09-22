@@ -333,10 +333,11 @@ input, textarea, select {
 }
 
 #legal {
-    clear: both;
-    padding-bottom: 10px;
-    text-align: center;
-    color: #375C69;
+  clear: both;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #375C69;
+  font-size:13px;
 }
 
 #legal a {
