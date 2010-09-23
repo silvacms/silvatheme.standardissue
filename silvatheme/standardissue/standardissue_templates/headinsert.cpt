@@ -1,0 +1,30 @@
+  <tal:headinsert
+    tal:define="homepage layout/root_url;">
+    <!-- Custom head elements -->
+    <tal:comment tal:replace="nothing">indent all 4 spaces to match main</tal:comment>
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="10 days" />
+    <link rel="stylesheet" type="text/css" media="print" href="print.css"
+      tal:attributes="href layout/static/print.css" />
+
+    <!-- Start related links -->
+    <link rel="shortcut icon" href="/favicon.ico"
+      tal:attributes="href layout/static/favicon.ico" />
+    <link rel="copyright" title="Copyright"
+      tal:attributes="href string:${homepage}/copyright" />   
+    <tal:feeds tal:condition="viewlet/have_feeds">
+    <link rel="alternate" type="application/atom+xml"
+      tal:attributes="
+        href string:${viewlet/container_url}/atom.xml;
+        title string:Infrae: ${context/get_title} feed;
+    " />
+    <link rel="alternate" type="application/rss+xml"
+      tal:attributes="
+        href string:${viewlet/container_url}/rss.xml;
+        title string:Infrae: ${context/get_title} feed;
+    " />
+    </tal:feeds>
+    <link rel="alternate" type="application/x-wiki" href="edit"
+      title="Edit this page (login required)" />
+    <!-- /End related links -->
+  </tal:headinsert>
