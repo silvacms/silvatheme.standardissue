@@ -9,7 +9,7 @@ body {
     padding: 0;
     background: #003A51 url(images/img01.gif) repeat-x;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     color: #333333;
 }
 
@@ -27,11 +27,11 @@ h2 {
     font-size: 23px;
 }
 
-p, ul, ol {
+p, ul, ol, label, span {
     margin: 0 0 2em 0;
     text-align: justify;
     line-height: 20px;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 a:link {
@@ -360,4 +360,20 @@ input, textarea, select {
 #fbox3 {
     width: 200px;
     padding-left: 70px;
+}
+
+/* Silva form styling */
+
+input, textarea {
+  border: 1px solid #aaa;
+  margin:0.1em 0;
+}
+
+div.actions {
+  height: 25px;
+}
+
+div.actions .action {
+  float: left;
+  margin-right: 0.1em;
 }
