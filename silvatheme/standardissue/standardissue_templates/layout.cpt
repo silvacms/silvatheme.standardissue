@@ -23,11 +23,9 @@
     <!-- start content -->
     <div id="content">
       <div class="box1">
-        <div class="entry">
-          <p tal:condition="view.content()"
+        <div class="entry"
              tal:content="structure view.content()">
             Content
-          </p>
         </div>
       </div>
     </div>
@@ -35,12 +33,13 @@
     <!-- start sidebar -->
     <div id="sidebar">
       <ul>
-        <li id="search" tal:condition="exists:context/search">
+        <li id="search" 
+            tal:condition="exists:context/search">
           <h3>Search</h3>
           <form method="get" action="search">
             <fieldset>
-              <input type="text" id="s" name="fulltext" value="" />
-              <input type="submit" id="x" name="search_submit" value="Search" />
+              <input type="text" name="fulltext" value="" />
+              <input type="submit" name="search_submit" value="Search" />
             </fieldset>
           </form>
         </li>
