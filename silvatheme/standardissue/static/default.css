@@ -27,9 +27,14 @@ h2 {
     font-size: 23px;
 }
 
-p, ul, ol, label, span {
+p, ul, ol {
     margin: 0 0 2em 0;
     text-align: justify;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+label, span {
     line-height: 20px;
     font-size: 12px;
 }
@@ -376,4 +381,26 @@ div.actions {
 div.actions .action {
   float: left;
   margin-right: 0.1em;
+}
+
+/* Silva Forum styling */
+
+div.feedback, p.form-status {
+  margin-bottom: 0.5em;
+  padding: 0.25em;
+  border: 1px solid #8fc511;
+  color: #003448;
+  background-color: transparent;
+  padding: 0.2em;
+}
+div.feedback.warning, div.form-error, span.field-error {
+  border: 1px solid #a00;
+  color: #a00;
+  background-color: transparent;
+  padding: 0.2em;
+}
+
+span.field-error {
+  display: block;
+  margin: 0;
 }
