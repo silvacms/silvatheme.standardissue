@@ -24,7 +24,10 @@
     <div id="content">
       <div class="box1">
         <div class="entry">
-          <p tal:content="structure view.content()"></p>
+          <p tal:condition="view.content()"
+             tal:content="structure view.content()">
+            Content
+          </p>
         </div>
       </div>
     </div>
