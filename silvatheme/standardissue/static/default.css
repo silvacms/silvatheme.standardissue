@@ -11,6 +11,7 @@ body {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: #333333;
+    line-height: 130%;
 }
 
 h1, h2, h3 {
@@ -21,6 +22,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 32px;
+    margin-bottom: 5px;
 }
 
 h2 {
@@ -28,15 +30,17 @@ h2 {
 }
 
 p, ul, ol {
-    margin: 0 0 2em 0;
+    margin: 0 0 0.5em 0;
     text-align: justify;
-    line-height: 20px;
     font-size: 12px;
 }
 
 label, span {
-    line-height: 20px;
     font-size: 12px;
+}
+
+label {
+  margin-top: 5px;
 }
 
 a:link {
