@@ -35,12 +35,9 @@ p, ul, ol {
     font-size: 12px;
 }
 
-label, span {
-    font-size: 11px;
-}
-
 label {
   margin-top: 5px;
+  font-weight: bold;
 }
 
 a:link {
