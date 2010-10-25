@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 29px;
   margin-bottom: 5px;
 }
 
@@ -37,7 +37,6 @@ p, ul, ol {
 }
 
 label {
-  margin-top: 5px;
   font-weight: bold;
 }
 
@@ -45,13 +44,13 @@ a:link {
   color: #333333;
 }
 
+a:visited {
+  color: #333333;
+}
+
 a:hover, a:active {
   text-decoration: none;
   color: #003448;
-}
-
-a:visited {
-  color: #333333;
 }
 
 img {
@@ -86,6 +85,7 @@ legend {
 }
 
 input, textarea, select {
+  padding: 0.1em;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size: 13px;
   color: #333333;
