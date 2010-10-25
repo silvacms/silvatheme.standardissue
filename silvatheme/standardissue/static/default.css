@@ -393,13 +393,13 @@ div.feedback, p.form-status {
   border: 1px solid #8fc511;
   color: #003448;
   background-color: transparent;
-  padding: 0.2em;
+  padding: 0.1em 0.2em;
 }
+
 div.feedback.warning, div.form-error, span.field-error {
   border: 1px solid #a00;
   color: #a00;
   background-color: transparent;
-  padding: 0.2em;
 }
 
 span.field-error {
