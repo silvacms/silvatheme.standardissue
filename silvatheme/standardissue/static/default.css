@@ -80,15 +80,15 @@ fieldset {
   border: none;
 }
 
-legend {
-  display: none;
-}
-
 input, textarea, select {
   padding: 0.1em;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   font-size: 13px;
-  color: #333333;
+  color: #333;
+}
+
+td.form-heading {
+  font-size: 14px;
 }
 
 /* Header */
@@ -389,17 +389,17 @@ div.actions .action {
 
 div.feedback, p.form-status {
   margin-bottom: 0.5em;
-  padding: 0.25em;
+  padding: 0.1em 0.2em;
   border: 1px solid #8fc511;
   color: #003448;
   background-color: transparent;
-  padding: 0.1em 0.2em;
 }
 
 div.feedback.warning, div.form-error, span.field-error {
   border: 1px solid #a00;
   color: #a00;
   background-color: transparent;
+  font-weight: bold;
 }
 
 span.field-error {
