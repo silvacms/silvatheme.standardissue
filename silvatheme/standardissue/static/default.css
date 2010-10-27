@@ -369,11 +369,11 @@ td.form-heading {
   padding-left: 70px;
 }
 
-/* Silva form styling */
+/* form styling */
 
 input, textarea {
   border: 1px solid #aaa;
-  margin:0.1em 0;
+  margin: 0.1em 0;
 }
 
 div.actions {
@@ -383,6 +383,17 @@ div.actions {
 div.actions .action {
   float: left;
   margin-right: 0.1em;
+}
+
+/* login form */
+div.login-form label {
+  font-weight: normal;
+}
+div.login-form td.form-heading label {
+  font-weight: bold;
+}
+div.login-form tr.actions input {
+  width: 39%;
 }
 
 /* Silva Forum styling */
