@@ -263,7 +263,8 @@ td.form-heading {
 
 #sidebar ul.navigation-level-1, #sidebar ul.navigation-level-2,
 #sidebar ul.navigation-level-3 {
-  margin-left: 10px;
+  margin-top: 0.5em;
+  margin-left: 1em;
 }
 
 #navigation-menu li a.selected {
