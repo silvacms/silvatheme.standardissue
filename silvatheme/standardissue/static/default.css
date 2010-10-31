@@ -371,8 +371,6 @@ label {
   font-weight: bold;
 }
 
-
-
 /* Login form */
 
 div.form {
@@ -387,7 +385,8 @@ div.form-title {
   font-size: 15px;
   font-weight: bold;
 }
-/*div.form-element {
+/* element borders
+div.form-element {
   border-top: 1px solid gray;
 }*/
 div.form-label {
@@ -407,6 +406,10 @@ div.form-field input {
   float: right;
   width: 22em;
 }
+/* if stacked
+div.form-actions {
+  margin: 0.5em 0 0;
+}*/
 div.form-actions input.submit {
   width: 6.9em;
   font-weight: bold;
