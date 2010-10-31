@@ -36,10 +36,6 @@ p, ul, ol {
   font-size: 12px;
 }
 
-label {
-  font-weight: bold;
-}
-
 a:link {
   color: #333333;
 }
@@ -65,30 +61,6 @@ img.left {
 img.right {
   float: right;
   margin-left: 15px;
-}
-
-/* Form */
-
-form {
-  margin: 0;
-  padding: 0;
-}
-
-fieldset {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-
-input, textarea, select {
-  padding: 0.1em;
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  color: #333;
-}
-
-td.form-heading {
-  font-size: 14px;
 }
 
 /* Header */
@@ -366,35 +338,82 @@ td.form-heading {
 }
 
 #fbox3 {
-  width: 200px;
+  width: 200px;: 38
   padding-left: 70px;
 }
 
-/* form styling */
+/* Forms */
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+input, textarea, select {
+  padding: 0.1em;
+  color: #333;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
 
 input, textarea {
   border: 1px solid #aaa;
   margin: 0.1em 0;
 }
 
-div.actions {
-  height: 25px;
-}
-
-div.actions .action {
-  float: left;
-  margin-right: 0.1em;
-}
-
-/* login form */
-div.login-form label {
-  font-weight: normal;
-}
-div.login-form td.form-heading label {
+label {
   font-weight: bold;
 }
-div.login-form tr.actions input {
-  width: 39%;
+
+
+
+/* Login form */
+
+div.form {
+  width: 30em;
+  margin: 1em 0;
+  padding: 0.2em 0.5em 0.3em;
+  border: 1px solid #808080;
+}
+/* for a stacked form remove floats and heights */
+div.form-title {
+  height: 1.6em;
+  font-size: 15px;
+  font-weight: bold;
+}
+/*div.form-element {
+  border-top: 1px solid gray;
+}*/
+div.form-label {
+  float: left;
+  width: 7em;
+  height: 2em;
+}
+div.form-label label {
+  display: block;
+  margin: 0.2em 0 0;
+  font-weight: normal;
+}
+div.form-field {
+  height: 2em;
+}
+div.form-field input {
+  float: right;
+  width: 22em;
+}
+div.form-actions input.submit {
+  width: 6.9em;
+  font-weight: bold;
+}
+div.form-actions input.cancel {
+  float: left;
+  width: 6.6em;
 }
 
 /* Silva Forum styling */
