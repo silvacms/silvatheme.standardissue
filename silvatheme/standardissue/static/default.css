@@ -419,24 +419,4 @@ div.form-actions input.cancel {
   width: 6.6em;
 }
 
-/* Silva Forum styling */
-
-div.feedback, p.form-status {
-  margin-bottom: 0.5em;
-  padding: 0.1em 0.2em;
-  border: 1px solid #8fc511;
-  color: #003448;
-  background-color: transparent;
-}
-
-div.feedback.warning, div.form-error, span.field-error {
-  border: 1px solid #a00;
-  color: #a00;
-  background-color: transparent;
-  font-weight: bold;
-}
-
-span.field-error {
-  display: block;
-  margin: 0;
-}
+/* Style is reflection */
