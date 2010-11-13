@@ -402,7 +402,8 @@ div.form-label label {
 div.form-field {
   height: 2em;
 }
-div.form-field input {
+div.form-field input[type="text"],
+  div.form-field input[type="password"] {
   float: right;
   width: 22em;
 }
@@ -411,12 +412,12 @@ div.form-actions {
   margin: 0.5em 0 0;
 }*/
 div.form-actions input.submit {
-  width: 6.9em;
+  float: right;
+  padding: 0.1em 1.5em;
   font-weight: bold;
 }
 div.form-actions input.cancel {
-  float: left;
-  width: 6.6em;
+  padding: 0.1em 1.5em;
 }
 
 /* Style is reflection */
