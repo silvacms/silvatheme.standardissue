@@ -33,10 +33,11 @@
     <!-- start sidebar -->
     <div id="sidebar">
       <ul>
-        <li id="search" 
+        <li id="search"
             tal:condition="exists:context/search">
           <h3>Search</h3>
-          <form method="get" action="search">
+          <form method="get" action="search"
+                tal:attributes="action path:context/search/@@absolute_url">
             <fieldset>
               <input type="text" name="fulltext" value="" />
               <input type="submit" name="search_submit" value="Search" />
