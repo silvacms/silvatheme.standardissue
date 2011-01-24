@@ -49,3 +49,15 @@ class Layout(porto.Layout):
 
     def current_navigation_title(self):
         return self.context.get_publication().get_title()
+
+
+class Favicon(porto.Favicon):
+    """Declare that we have a favicon for this layer.
+
+    Default favicon url is static/favicon.ico so we don't need to
+    do anything besides declaring the Favicon viewlet inside this
+    layer and have a static/favicon.ico file.
+    If you want it to be something different, define a favicon_url property
+    or method for this class.
+    """
+    pass
