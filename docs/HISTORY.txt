@@ -1,17 +1,23 @@
 Changelog
 =========
 
-1.1.1 (unreleased)
-------------------
+1.2 (2010-02-07)
+----------------
 
-* ...
+* Update CSS for forms. Remove SilvaForum CSS (this goes in SilvaForum).
 
-1.1 (2010/10/27)
+* Fix search field by specifying a valid URL to post the search criteria.
+
+* Update the favicon customization.
+
+* Various CSS changes.
+
+1.1 (2010-10-27)
 ----------------
 
 * Add default style for form elements.
 
-1.0 (2010/01/25)
+1.0 (2010-01-25)
 ----------------
 
 * Initial release

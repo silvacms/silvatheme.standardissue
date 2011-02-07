@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.1.1dev'
+version = '1.2'
 
 setup(name='silvatheme.standardissue',
       version=version,
@@ -18,7 +18,7 @@ setup(name='silvatheme.standardissue',
       author='Infrae - Design by NodeThirtyThree',
       author_email='info@infrae.com',
       url='http://infrae.com/products/silva',
-      license='BSD',
+      license='BSD and Creative Commons',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['silvatheme'],
       include_package_data=True,
