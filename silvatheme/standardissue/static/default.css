@@ -380,6 +380,9 @@ div.form {
   border: 1px solid #808080;
 }
 /* for a stacked form remove floats and heights */
+div.login-form div.form-element {
+  height: 2em;
+}
 div.form-title {
   height: 1.6em;
   font-size: 15px;
@@ -392,15 +395,11 @@ div.form-element {
 div.form-label {
   float: left;
   width: 7em;
-  height: 2em;
 }
 div.form-label label {
   display: block;
   margin: 0.2em 0 0;
   font-weight: normal;
-}
-div.form-field {
-  height: 2em;
 }
 div.form-field input[type="text"],
   div.form-field input[type="password"] {
