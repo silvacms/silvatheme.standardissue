@@ -380,9 +380,6 @@ div.form {
   border: 1px solid #808080;
 }
 /* for a stacked form remove floats and heights */
-div.login-form div.form-element {
-  height: 2em;
-}
 div.form-title {
   height: 1.6em;
   font-size: 15px;
@@ -395,11 +392,15 @@ div.form-element {
 div.form-label {
   float: left;
   width: 7em;
+  height: 2em;
 }
 div.form-label label {
   display: block;
   margin: 0.2em 0 0;
   font-weight: normal;
+}
+div.form-field {
+  height: 2em;
 }
 div.form-field input[type="text"],
   div.form-field input[type="password"] {
@@ -418,5 +419,19 @@ div.form-actions input.submit {
 div.form-actions input.cancel {
   padding: 0.1em 1.5em;
 }
+
+/* style for news items properties form, i.e. the newsitemtemplate 
+   when using content layout */
+.newsproperties {
+ float: right;
+}
+
+.newsproperties .form-display-label {
+  font-weight: bold;
+}
+.newsproperties .form-display-row:hover {
+  background-color: #EEE;
+}
+/* end style for news items properties form */
 
 /* Style is reflection */
