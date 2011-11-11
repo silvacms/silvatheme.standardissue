@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.2.1dev'
+version = '1.3'
 
 setup(name='silvatheme.standardissue',
       version=version,
@@ -26,6 +26,7 @@ setup(name='silvatheme.standardissue',
       install_requires=[
           'setuptools',
           'megrok.chameleon',
+          'silva.core.conf',
           'silva.core.interfaces',
           'silva.core.layout',
           'zope.cachedescriptors',
