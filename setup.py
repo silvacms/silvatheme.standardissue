@@ -25,7 +25,7 @@ setup(name='silvatheme.standardissue',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'megrok.chameleon',
+          'grokcore.chameleon',
           'silva.core.conf',
           'silva.core.interfaces',
           'silva.core.layout',
