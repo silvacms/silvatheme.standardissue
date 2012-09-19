@@ -34,7 +34,7 @@
     <div id="sidebar">
       <ul>
         <li id="search"
-            tal:condition="exists:context/search">
+            tal:condition="nocall:context/search | nothing">
           <h3>Search</h3>
           <form method="get" action="search"
                 tal:attributes="action path:context/search/@@absolute_url">
