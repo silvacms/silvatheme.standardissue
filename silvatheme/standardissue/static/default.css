@@ -53,23 +53,30 @@ img {
   border: none;
 }
 
-.align-left {
-  text-align: left;
-}
+/* alignments */
+.align-left {}
+.align-center {text-align:center;}
+.align-right {float:right; clear:both;}
+.float-left {float:left; clear:both;}
+.float-right {float:right; clear:both;} /* display:none in mobile skin */
+img.default {margin-bottom:0.7em;} /* legacy */
+div.image.default {margin-bottom:0.7em;}
+div.image-left {float:left; margin:5px 6px 5px 0;} /* icons midline, legacy */
+div.image.align-left {float:left; margin:5px 6px 5px 0;} /* icons midline */
+div.image-center {text-align:center; margin:0;} /* legacy */
+div.image.align-center {text-align:center; margin:0;}
+div.image-right {float:right; margin:8px 0 10px 20px;} /* legacy */
+div.image.align-right {float:right; margin:8px 0 10px 20px;}
+div.image.float-left {margin:6px 10px 5px 0; clear:none;} /* nested cap height */
+div.image.float-right {margin:6px 0 5px 10px;}  /* nested x height */
 
-img.left, .image-left {
-  float: left;
-  margin-right: 15px;
-}
-
-.align-right {
-  text-align: right;
-}
-
-img.right, .image-right img {
-  float: right;
-  margin-left: 15px;
-}
+/* legacy:pre-3.x */
+div.image-left {float:left; margin:2px 6px 5px 0;} /* icons midline */
+div.image-center {text-align:center; margin:0;}
+div.image-right {float:right; margin:8px 0 10px 20px;}
+img.default {margin-bottom:0.7em;}
+img.float-left {margin:6px 10px 5px 0;} /* nested cap height */
+img.float-right {margin:6px 0 5px 10px;}  /* nested x height */
 
 /* Header */
 
