@@ -11,8 +11,10 @@ from silva.core.layout.porto import porto
 from silva.core.layout.porto.interfaces import IPorto
 from silva.core.interfaces import IPublication, ISilvaObject
 
+from zeam.form.silva.form.public import ISilvaFormResources
 
-class IStandardIssue(IPorto):
+
+class IStandardIssue(IPorto, ISilvaFormResources):
     """Layer for standard issue theme
     """
     silvaconf.resource('default.css')
@@ -51,6 +53,7 @@ class Layout(porto.Layout):
 
     def top_menu_items(self):
         root = self.context.get_root()
+
         def publishable(x):
             return x.is_published() and IPublication.providedBy(x)
         return filter(publishable, root.get_ordered_publishables())

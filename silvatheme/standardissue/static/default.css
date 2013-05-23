@@ -353,7 +353,7 @@ img.float-right {margin:6px 0 5px 10px;}  /* nested x height */
 }
 
 #fbox3 {
-  width: 200px;: 38
+  width: 200px;
   padding-left: 70px;
 }
 
@@ -384,55 +384,6 @@ input, textarea {
 
 label {
   font-weight: bold;
-}
-
-/* Login form */
-
-div.form {
-  width: 30em;
-  margin: 1em 0;
-  padding: 0.2em 0.5em 0.3em;
-  border: 1px solid #808080;
-}
-/* for a stacked form remove floats and heights */
-div.form-title {
-  height: 1.6em;
-  font-size: 15px;
-  font-weight: bold;
-}
-/* element borders
-div.form-element {
-  border-top: 1px solid gray;
-}*/
-div.form-label {
-  float: left;
-  width: 7em;
-  height: 2em;
-}
-div.form-label label {
-  display: block;
-  margin: 0.2em 0 0;
-  font-weight: normal;
-}
-div.form-field {
-  height: 2em;
-}
-div.form-field input[type="text"],
-  div.form-field input[type="password"] {
-  float: right;
-  width: 22em;
-}
-/* if stacked
-div.form-actions {
-  margin: 0.5em 0 0;
-}*/
-div.form-actions input.submit {
-  float: right;
-  padding: 0.1em 1.5em;
-  font-weight: bold;
-}
-div.form-actions input.cancel {
-  padding: 0.1em 1.5em;
 }
 
 /* style for news items properties form, i.e. the newsitemtemplate 
