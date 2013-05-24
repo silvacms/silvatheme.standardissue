@@ -11,10 +11,10 @@ from silva.core.layout.porto import porto
 from silva.core.layout.porto.interfaces import IPorto
 from silva.core.interfaces import IPublication, ISilvaObject
 
-from zeam.form.silva.form.public import ISilvaFormResources
+from zeam.form.silva import IPublicFormResources
 
 
-class IStandardIssue(IPorto, ISilvaFormResources):
+class IStandardIssue(IPorto, IPublicFormResources):
     """Layer for standard issue theme
     """
     silvaconf.resource('default.css')
