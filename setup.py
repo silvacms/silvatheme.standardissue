@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2012  Infrae. All rights reserved.
+# Copyright (c) 2012-2013 Infrae. All rights reserved.
 # See also LICENSE.txt
 from setuptools import setup, find_packages
 import os
 
-version = '1.4dev'
+version = '1.4'
 
 setup(name='silvatheme.standardissue',
       version=version,
@@ -32,6 +32,8 @@ setup(name='silvatheme.standardissue',
           'silva.core.conf',
           'silva.core.interfaces',
           'silva.core.layout',
+          'zeam.form.silva',
           'zope.cachedescriptors',
+          'zope.traversing',
           ],
       )
