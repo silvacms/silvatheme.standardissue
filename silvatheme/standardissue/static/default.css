@@ -310,6 +310,59 @@ img.float-right {margin:6px 0 5px 10px;}  /* nested x height */
   color: #EDEDED;
 }
 
+/* Table styles */
+
+table.plain,
+table.list,
+table.grid,
+table.datagrid {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+
+table.datagrid {
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+table.plain td,
+table.plain th,
+table.list td,
+table.list th,
+table.grid td,
+table.grid th,
+table.datagrid td,
+table.datagrid th {
+    border: 1px solid #777;
+    text-align: left;
+    padding: 0 4px 0 0;
+}
+
+table.plain td,
+table.plain th {
+    border: none;
+}
+
+table.list td,
+table.list th {
+    border-right: none;
+    border-left: none;
+}
+
+table.grid td,
+table.grid th,
+table.datagrid td,
+table.datagrid th {
+    padding: 0 2px;
+}
+
+table.datagrid td,
+table.datagrid th {
+    border-width: 2px;
+}
+
+
 /* Footer */
 
 #footer {
@@ -387,7 +440,7 @@ label {
   font-weight: bold;
 }
 
-/* style for news items properties form, i.e. the newsitemtemplate 
+/* style for news items properties form, i.e. the newsitemtemplate
    when using content layout */
 .newsproperties {
  float: right;
