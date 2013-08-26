@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.4.1dev'
+version = '1.5'
 
 setup(name='silvatheme.standardissue',
       version=version,
