@@ -8,7 +8,7 @@ version = '1.5.1dev'
 
 setup(name='silvatheme.standardissue',
       version=version,
-      description="Standard Issue theme for Silva",
+      description="Standard Issue theme for Silva CMS",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
@@ -20,7 +20,7 @@ setup(name='silvatheme.standardissue',
       keywords='silvatheme standardissue',
       author='Infrae - Design by NodeThirtyThree',
       author_email='info@infrae.com',
-      url='http://infrae.com/products/silva',
+      url='https://github.com/silvacms/silvatheme.standardissue',
       license='BSD and Creative Commons',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['silvatheme'],
